@@ -1,0 +1,9 @@
+{
+    "files":[
+        "ArraysShoppingTask.js"
+    ],
+    "tests":[
+        "test.js"
+    ],
+    "setup":"setup.js"
+}
