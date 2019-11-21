@@ -5,6 +5,13 @@ var fruitVegShoppingList = ["Apples", "Carrots", "Potatoes"];
 
 // Code Below
 
+var fruitVegList = ["Apples","Apricot","Artichoke","Carrots","Cabbage","Onion","Oranges","Potatoes"];
+var x;
+
+for (x of fruitVegList) {
+    document.write(x + "<br >");
+}
+
 var shoppingList = ["Eggs","Apples","Bread","Milk","Carrots","Potatoes","Chicken"]
 var fruitVegList = shoppingList.indexOf("Apples","Apricot","Artichoke","Carrots","Cabbage","Onion","Oranges","Potatoes");
-document.getElementById("demo").innerHTML = "Apple is found in position " + b; "Carrots is found in position " + e; "Potatoes is found in position " + f;
+
