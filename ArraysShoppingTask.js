@@ -7,16 +7,10 @@ var fruitVegShoppingList = ["Apples", "Carrots", "Potatoes"];
 fruitVegShoppingList.length; // the length of fruitVegShoppingList is 3
 
 // Code Below
-var fruitVegList = ["Apples","Apricot","Artichoke","Carrots","Cabbage","Onion","Oranges","Potatoes"];
-var x;
-for (x of fruitVegList){
-    document.write(x + "<br >");
+for ( var i = 0; i < fruitVegList.length - 1; i++){
+  for ( var j = 0; j < shoppingList.length - 1; j++){
+if (fruitVegList[ i ] == shoppingList [j]){
+  fruitVegShoppingList.push( fruitVegList [i])
 }
-var txt = "List of fruit and vegetables contain ";
-var fruitVegShoppingList = ["Apples", "Carrots", "Potatoes"];
-fruitVegShoppingList.forEach(myFunction);
-document.getElementById("demo").innerHTML = txt;
-
-function myFunction(value, index, array) {
-  txt = txt + value + "<br>"; 
+  }
 }
