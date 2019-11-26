@@ -3,8 +3,7 @@ shoppingList.length; // the length of shoppingList is 7
 var fruitVegList = ["Apples","Apricot","Artichoke","Carrots","Cabbage","Onion","Oranges","Potatoes"] //the list of accepted fruits and vegetables
 fruitVegList.length; // the length of fruitVegList is 8
 
-var fruitVegShoppingList = ["Apples", "Carrots", "Potatoes"];
-fruitVegShoppingList.length; // the length of fruitVegShoppingList is 3
+var fruitVegShoppingList = [ ]
 
 // Code Below
 for ( var i = 0; i < fruitVegList.length - 1; i++){
