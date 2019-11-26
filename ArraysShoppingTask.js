@@ -6,8 +6,8 @@ fruitVegList.length; // the length of fruitVegList is 8
 var fruitVegShoppingList = [ ]
 
 // Code Below
-for ( var i = 0; i < fruitVegList.length - 1; i++){
-  for ( var j = 0; j < shoppingList.length - 1; j++){
+for ( var i = 0; i <= fruitVegList.length - 1; i++){
+  for ( var j = 0; j <= shoppingList.length - 1; j++){
 if (fruitVegList[ i ] == shoppingList [j]){
   fruitVegShoppingList.push( fruitVegList [i])
 }
